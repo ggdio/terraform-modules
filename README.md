@@ -1,2 +1,2 @@
 # terraform-modules
-Handful of terraform modules
+Just a handful of terraform modules
