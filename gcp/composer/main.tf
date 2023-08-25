@@ -62,7 +62,7 @@ resource "google_composer_environment" "airflow_cluster" {
         smtp-smtp_user      = var.smtp_user
         smtp-smtp_password  = var.smtp_password
         smtp-smtp_mail_from = var.smtp_mail_from
-        #email-email_backend = "airflow.contrib.utils.sendgrid.send_email"
+        email-email_backend = "airflow.contrib.utils.sendgrid.send_email"
         #core-default_timezone = var.default_timezone
         #scheduler-catchup_by_default = var.catchup_by_default
         #webserver-default_ui_timezone = var.default_timezone
