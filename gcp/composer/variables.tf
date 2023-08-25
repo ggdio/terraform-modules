@@ -53,7 +53,7 @@ variable "network" {
 }
 
 variable "subnetwork" {
-  default = "projects/xxx/regions/southamerica-east1/subnetworks/xxx"
+  default = "projects/xxxx/regions/southamerica-east1/subnetworks/xxxx"
 }
 
 variable "service_account_email" {}
