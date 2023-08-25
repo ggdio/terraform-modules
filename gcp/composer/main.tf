@@ -65,7 +65,7 @@ resource "google_composer_environment" "airflow_cluster" {
         email-email_backend = "airflow.contrib.utils.sendgrid.send_email"
         #core-default_timezone = var.default_timezone
         #scheduler-catchup_by_default = var.catchup_by_default
-        #webserver-default_ui_timezone = var.default_timezone
+        webserver-default_ui_timezone = var.default_timezone
       }
     }
   }
